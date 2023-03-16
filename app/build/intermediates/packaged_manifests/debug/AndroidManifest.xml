@@ -26,20 +26,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.TipTime" >
-        <activity
-            android:name="com.example.tiptime.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.tiptime.androidx-startup"
